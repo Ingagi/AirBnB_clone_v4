@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../static/styles/4-common.css?{{ cache_id }}" />
+    <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css?{{ cache_id }}" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../static/scripts/101-hbnb.js?{{ cache_id }}"></script>
+    <style>
+      #api_status {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 30px;
+        width: 40px;
+        height: 40px;
+        background-color: #cccccc;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+      }
+      .available {
+        background-color: #ff545f;
+      }
+      .reviews {
+        margin-top: 20px;
+      }
+      .toggle-reviews {
+        cursor: pointer;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="api_status">API</div>
+      <!-- Other header content -->
+    </header>
+    <div class="filters">
+      <!-- Filters section -->
+    </div>
+    <div class="places">
+      <!-- Places section -->
+    </div>
+    <div class="reviews">
+      <h2>Reviews<span class="toggle-reviews" data-toggle="hide">show</span></h2>
+      <!-- Review elements will be dynamically added here -->
+    </div>
+  </body>
+</html>
+
